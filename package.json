@@ -1,0 +1,8 @@
+{
+  "name": "packratplayground-com",
+  "private": true,
+  "scripts": {
+    "preview": "npx --yes serve .",
+    "deploy": "npx wrangler@4 pages deploy . --project-name=packratplayground-com --branch=main --commit-dirty=true"
+  }
+}
